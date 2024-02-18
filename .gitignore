@@ -37,3 +37,7 @@ lerna-debug.log*
 .cache
 .local
 stats.html
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
