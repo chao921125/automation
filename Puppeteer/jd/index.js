@@ -1,4 +1,5 @@
-const puppeteer = require('puppeteer');
+import puppeteer from "puppeteer";
+
 //延时函数
 function sleep(delay) {
 	return new Promise((resolve, reject) => {
@@ -12,8 +13,8 @@ function sleep(delay) {
 	})
 }
 puppeteer.launch({
-	ignoreHTTPSErrors:true, 
-	headless:false,slowMo:250, 
+	ignoreHTTPSErrors:true,
+	headless:false,slowMo:250,
 	timeout:0}).then(async browser => {
 
 	let page = await browser.newPage();

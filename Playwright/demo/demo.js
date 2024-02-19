@@ -1,4 +1,4 @@
-const { chromium, firefox, webkit } = require('playwright');
+import { chromium, firefox, webkit } from 'playwright';
 
 (async () => {
   const browser = await webkit.launch({
