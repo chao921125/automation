@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+import puppeteer from "puppeteer";
 
 puppeteer.launch({headless: false, ignoreDefaultArgs: ["--enable-automation"]}).then(async browser => {
   const page = await browser.newPage();

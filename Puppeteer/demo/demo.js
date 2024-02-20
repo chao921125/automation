@@ -1,6 +1,5 @@
-// consnt fs = require('fs');
-
-const puppeteer = require('puppeteer');
+import fs from "fs";
+import puppeteer from "puppeteer";
 
 (async () => {
 // https://blog.fundebug.com/2
@@ -29,7 +28,7 @@ const puppeteer = require('puppeteer');
 
     const indexPage = await indexBrowser.newPage();
     recursive(indexBrowser, indexPage, 0);
-    
+
 })();
 
 async function recursive(indexBrowser, indexPage, sum) {
@@ -39,11 +38,11 @@ async function recursive(indexBrowser, indexPage, sum) {
         url: 'https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js'
     });
     await indexPage.waitForSelector('.divimg');
-    
+
     debugger
     const aaaa = await indexPage.$("body > div.main3 > div.left > div.titletype > div:nth-child(5) > div.sright > a:nth-child(1)");
     let tttt = indexPage.$eval("body > div.main3 > div.left > div.titletype > div:nth-child(5) > div.sright > a:nth-child(1)", e => e.innerText)
-    
+
     console.log(tttt);
 
 
