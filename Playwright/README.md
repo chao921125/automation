@@ -1,6 +1,5 @@
-
 # Playwright
-对应浏览器位置Mac /Users/huangchao/Library/Caches/ms-playwright/
+对应浏览器位置Mac /Users/xx/Library/Caches/ms-playwright/
 [GitHub](https://github.com/microsoft/playwright) \
 [英文 API](https://playwright.dev/docs/intro) \
 ```
