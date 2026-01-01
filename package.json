@@ -9,16 +9,16 @@
   },
   "dependencies": {
     "mysql": "^2.18.1",
-    "mysql2": "^3.14.1",
+    "mysql2": "^3.16.0",
     "node-rsa": "^1.1.1",
-    "playwright": "^1.52.0",
-    "puppeteer": "^24.10.0",
-    "puppeteer-core": "^24.10.0"
+    "playwright": "^1.57.0",
+    "puppeteer": "^24.34.0",
+    "puppeteer-core": "^24.34.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.52.0",
-    "@types/node": "^22.15.29",
-    "typescript": "^5.8.3"
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
   },
   "repository": {
     "type": "git",
